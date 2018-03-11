@@ -5,751 +5,255 @@ module.exports = {
      * When editing your questions pay attention to your punctuation. Make sure you use question marks.
      * Make sure the first answer is the correct one. Set at least ANSWER_COUNT answers, any extras will be shuffled in.
      */
-    QUESTIONS_EN_GB: [
-        {
-            'Reindeer have very thick coats, how many hairs per square inch do they have?': [
-                '13,000',
-                '1,200',
-                '5,000',
-                '700',
-                '1,000',
-                '120,000',
-            ],
-        },
-        {
-            'The 1964 classic Rudolph The Red Nosed Reindeer was filmed in? ': [
-                'Japan',
-                'United States',
-                'Finland',
-                'Germany',
-                'Canada',
-                'Norway',
-                'France',
-            ],
-        },
-        {
-            'Santas reindeer are cared for by one of the Christmas elves, what is his name?': [
-                'Wunorse Openslae',
-                'Alabaster Snowball',
-                'Bushy Evergreen',
-                'Pepper Minstix',
-            ],
-        },
-        {
-            'If all of Santas reindeer had antlers while pulling his Christmas sleigh, they would all be? ': [
-                'Girls',
-                'Boys',
-                'Girls and boys',
-                'No way to tell',
-            ],
-        },
-        {
-            'What do Reindeer eat?': [
-                'Lichen',
-                'Grasses',
-                'Leaves',
-                'Berries',
-            ],
-        },
-        {
-            'What of the following is not true?': [
-                'Caribou live on all continents',
-                'Both reindeer and Caribou are the same species',
-                'Caribou are bigger than reindeer',
-                'Reindeer live in Scandinavia and Russia',
-            ],
-        },
-        {
-            'In what year did Rudolph make his television debut?': [
-                '1964',
-                '1979',
-                '2000',
-                '1956',
-            ],
-        },
-        {
-            'Who was the voice of Rudolph in the 1964 classic?': [
-                'Billie Mae Richards',
-                'Burl Ives',
-                'Paul Soles',
-                'Lady Gaga',
-            ],
-        },
-        {
-            'In 1939 what retailer used the story of Rudolph the Red Nose Reindeer?': [
-                'Montgomery Ward',
-                'Sears',
-                'Macys',
-                'Kmart',
-            ],
-        },
-        {
-            'Santa\'s reindeer named Donner was originally named what?': [
-                'Dunder',
-                'Donny',
-                'Dweedle',
-                'Dreamy',
-            ],
-        },
-        {
-            'Who invented the story of Rudolph?': [
-                'Robert May',
-                'Johnny Marks',
-                'Santa',
-                'J K  Rowling',
-            ],
-        },
-        {
-            'In what location will you not find reindeer?': [
-                'North Pole',
-                'Lapland',
-                'Korvatunturi mountain',
-                'Finland',
-            ],
-        },
-        {
-            'What Makes Santa\'s Reindeer Fly?': [
-                'Magical Reindeer Dust',
-                'Fusion',
-                'Amanita muscaria',
-                'Elves',
-            ],
-        },
-        {
-            'Including Rudolph, how many reindeer hooves are there?': [
-                '36',
-                '24',
-                '16',
-                '8',
-            ],
-        },
-        {
-            'Santa only has one female reindeer, Which one is it?': [
-                'Vixen',
-                'Clarice',
-                'Cupid',
-                'Cupid',
-            ],
-        },
-        {
-            'In the 1964 classic Rudolph The Red Nosed Reindeer, what was the snowman narrators name?': [
-                'Sam',
-                'Frosty',
-                'Burl',
-                'Snowy',
-            ],
-        },
-        {
-            'What was Rudolph\'s father\'s name?': [
-                'Donner',
-                'Dasher',
-                'Blixen',
-                'Comet',
-            ],
-        },
-        {
-            'In the 1964 movie, What was the name of the coach of the Reindeer Games?': [
-                'Comet',
-                'Blixen',
-                'Donner',
-                'Dasher',
-            ],
-        },
-        {
-            'In the 1964 movie, what is the name of the deer that Rudolph befriends at the reindeer games?': [
-                'Fireball',
-                'Clarice',
-                'Jumper',
-                'Vixen',
-            ],
-        },
-        {
-            'In the 1964 movie, How did Donner, Rudolph\'s father, try to hide Rudolph\'s nose?': [
-                'Black mud',
-                'Bag',
-                'Pillow case',
-                'Sock',
-            ],
-        },
-        {
-            'In the 1964 movie, what does the Misfit Elf want to be instead of a Santa Elf?': [
-                'Dentist',
-                'Reindeer',
-                'Toy maker',
-                'Candlestick maker',
-            ],
-        },
-        {
-            'In the 1964 movie,what was the Bumble\'s one weakness?': [
-                'Could not swim',
-                'Always hungry',
-                'Candy canes',
-                'Cross eyed',
-            ],
-        },
-        {
-            'In the 1964 movie, what is Yukon Cornelius really in search of?': [
-                'Peppermint',
-                'Gold',
-                'India',
-                'Polar Bears',
-            ],
-        },
-        {
-            'In the 1964 movie, why is the train on the Island of Misfit Toys?': [
-                'Square wheels',
-                'No Engine',
-                'Paint does not match',
-                'It does not toot',
-            ],
-        },
-        {
-            'In the 1964 movie, what is the name of the Jack in the Box?': [
-                'Charlie',
-                'Sam',
-                'Billy',
-                'Jack',
-            ],
-        },
-        {
-            'In the 1964 movie, why did Santa Claus almost cancel Christmas?': [
-                'Storm',
-                'No snow',
-                'No toys',
-                'The Reindeer were sick',
-            ],
-        },
-        {
-            'In the 1964 movie, what animal noise did the elf make to distract the Bumble?': [
-                'Oink',
-                'Growl',
-                'Bark',
-                'Meow',
-            ],
-        },
-        {
-            'In the 1964 movie, what is the name of the prospector?': [
-                'Yukon Cornelius',
-                'Slider Sam',
-                'Bumble',
-                'Jack',
-            ],
-        },
-        {
-            'How far do reindeer travel when they migrate?': [
-                '3000 miles',
-                '700 miles',
-                '500 miles',
-                '0 miles',
-            ],
-        },
-        {
-            'How fast can a reindeer run?': [
-                '48 miles per hour',
-                '17 miles per hour',
-                '19 miles per hour',
-                '14 miles per hour',
-                '52 miles per hour',
-                '41 miles per hour',
-            ],
-        },
-    ],
     QUESTIONS_EN_US: [
         {
-            'Reindeer have very thick coats, how many hairs per square inch do they have?': [
-                '13,000',
-                '1,200',
-                '5,000',
-                '700',
-                '1,000',
-                '120,000',
+            'When was the club founded?': [
+                'eighteen-seventy-eight',
+                'eighteen-seventy',
+                'nineteen-eleven',
+                'eighteen-sixty-eight',
+                'nineteen-twenty-eight',
+                'eighteen-sixty-five',
             ],
         },
         {
-            'The 1964 classic Rudolph The Red Nosed Reindeer was filmed in? ': [
-                'Japan',
-                'United States',
-                'Finland',
-                'Germany',
-                'Canada',
-                'Norway',
-                'France',
+            'When was the club changed its name from Newton Heath LYR Football Club to Manchester United? ': [
+                'nineteen-hundred and two',
+                'eighteen-ninety-four',
+                'eighteen-sixty-five',
+                'nineteen-twenty-six',
+                'nineteen-ninety-nine',
+                'nineteen-thirty-three',
+                'nineteen-fifty-seven',
             ],
         },
         {
-            'Santas reindeer are cared for by one of the Christmas elves, what is his name?': [
-                'Wunorse Openslae',
-                'Alabaster Snowball',
-                'Bushy Evergreen',
-                'Pepper Minstix',
+            'When the club moved its home stadium to Old Trafford?': [
+                'nineteen-ten',
+                'nineteen-hundred and eight',
+                'nineteen-twenty',
+                'nineteen-eighty-eight',
+                'nineteen-twelve'
             ],
         },
         {
-            'If all of Santas reindeer had antlers while pulling his Christmas sleigh, they would all be': [
-                'Girls',
-                'Boys',
-                'Girls and boys',
-                'No way to tell',
+            'How old was David Beckham when he made his Premier League debut?': [
+                '20 old',
+                '18 years old',
+                '21 old',
+                '19 years old',
+                '17 years old',
             ],
         },
         {
-            'What do Reindeer eat?': [
-                'Lichen',
-                'Grasses',
-                'Leaves',
-                'Berries',
+            'Who was ranked 11th of club\'s All time top scorer?': [
+                'Ruud van Nistelrooy',
+                'Paul Scholes',
+                'Ryan Giggs',
+                'George Best',
+                'Mark Hughes',
+                'Joe Spence',
+                'Stan Pearson',
             ],
         },
         {
-            'What of the following is not true?': [
-                'Caribou live on all continents',
-                'Both reindeer and Caribou are the same species',
-                'Caribou are bigger than reindeer',
-                'Reindeer live in Scandinavia and Russia',
+            'How many goals did Gary Neville score with the club?': [
+                '7 goals',
+                '10 goals',
+                '5 goals',
+                '12 goals',
+                '23 goals',
+                '31 goals',
+                'He never scored for Man United',
             ],
         },
         {
-            'In what year did Rudolph make his television debut?': [
-                '1964',
-                '1979',
-                '2000',
-                '1956',
+            'Manchester United has hit 1,000 home Premier League goals in 2016 against Everton. Who scored that 1000th?': [
+                'Anthony Martial',
+                'Wayne Rooney',
+                'Marcus Rashford',
+                'Jesse Lindgard',
+                'Zlatan Ibrahimovic',
+                'Ander Herrera',
+                'Juan Mata',
+                'Michael Carrick'
             ],
         },
         {
-            'Who was the voice of Rudolph in the 1964 classic?': [
-                'Billie Mae Richards',
-                'Burl Ives',
-                'Paul Soles',
-                'Lady Gaga',
+            'Wayne Rooney is the all time top scorer with 253 goals. Do you know how did he score 250th? against which team?': [
+                'Freekick against Stoke City',
+                'Freekick against Westham United',
+                'Header against PSV Eindhoven',
+                'Left foot against Chelsea',
+                'Overhead kick against Manchester City',
+                'Right foot against Wigan Athletic',
+                'Penalty against Leicester City',
             ],
         },
         {
-            'In 1939 what retailer used the story of Rudolph the Red Nose Reindeer?': [
-                'Montgomery Ward',
-                'Sears',
-                'Macys',
-                'Kmart',
+            'Saturday, March 10th, two-thousand-eighteen. Manchester United defeated the most rival, Liverpool, 2-1. \nAll 3 goals scored by our player. Who scored?': [
+                '2 goals by Marcus Rashford and own goal by Eric Bailly',
+                '2 goals by Romelu Lukaku and own goal by Phil Jones',
+                '2 goals by Jesse Lindgard and own goal by Chris Smalling',
+                '2 goals by Paul Pogba and own goal by Victor Lindelof',
+                '2 goals by Anthony Martial and own goal by Eric Bailly',
+                '2 goals by Alexis Sanchez and own goal by Nemanja Matic',
             ],
         },
         {
-            'Santa\'s reindeer named Donner was originally named what?': [
-                'Dunder',
-                'Donny',
-                'Dweedle',
-                'Dreamy',
+            'The club\'s former manager, Louis Van Gaal, once called Chris Smalling the wrong name. What did he call him?': [
+                'Mike Smalling',
+                'Peter Smalling',
+                'Juan Smalling',
+                'Marcus Smalling',
+                'John Smalling',
+                'Christiano Smalling',
             ],
         },
         {
-            'Who invented the story of Rudolph?': [
-                'Robert May',
-                'Johnny Marks',
-                'Santa',
-                'J K  Rowling',
+            'What is the latest team which Ji-Sung Park play for before moving to Manchester United?': [
+                'PSV Eindhoven',
+                'Feyenoord Rotterdam',
+                'Borussia Dortmund',
+                'AFC Ajax',
+                'Kyoto Purple Sanga',
+                'Queens Park Rangers',
             ],
         },
         {
-            'In what location will you not find reindeer?': [
-                'North Pole',
-                'Lapland',
-                'Korvatunturi mountain',
-                'Finland',
+            'Which player in this following list never scored on his debut?': [
+                'Christiano Ronaldo',
+                'Gabrial Heinze',
+                'Giuseppe Rossi',
+                'James Wilson',
+                'Nick Powell',
+                'Paul Scholes',
+                'Ole Gunnar Solskjear',
+                'Josh Harrop',
             ],
         },
         {
-            'What Makes Santa\'s Reindeer Fly?': [
-                'Magical Reindeer Dust',
-                'Fusion',
-                'Amanita muscaria',
-                'Elves',
+            'How many \'Premier League\' titles have the club won?': [
+                '13',
+                '10',
+                '15',
+                '20',
+                '18',
+                '9',
+                '12',
             ],
         },
         {
-            'Including Rudolph, how many reindeer hooves are there?': [
-                '36',
-                '24',
-                '16',
+            'Do you know who are the club\'s co-chairmen?': [
+                'Joel and Avram Glazer',
+                'Jonathan and Abbram Glazer',
+                'Joey and Jim Glazer',
+                'David and Peter Gill',
+                'Ed and George Woodward',
+            ],
+        },
+        {
+            'What date is Sir Alex Ferguson was appointed to be the club manager?.': [
+                '6 November nineteen-eighty-six',
+                '6 December nineteen-eighty-six',
+                '6 November nineteen-eighty-four',
+                '9 August nineteen-eighty-six',
+                '15 December nineteen-eighty-four',
+            ],
+        },
+        {
+            'How many hatric did Cristiano Ronaldo score with the club?.': [
+                '1',
+                '2',
+                '3',
+                '4',
+                '5',
+                'Never'
+            ],
+        },
+        {
+            'What was David Moyes doing when Alex Ferguson rang him to ask him to be United manager?.': [
+                'Shopping with wife',
+                'Playing golf',
+                'Negotiating new contract with Everton',
+                'Sleeping',
+                'Workout at a gym',
+                'On vacation in Spain'
+            ],
+        },
+        {
+            'It was recently revealed that the club paid how much in compensation to David Moyes and his sacked management team?.': [
+                '5.2 million Pound',
+                '1.6 million Pound',
+                '4 million Pound',
+                '3.4 million Pound',
+                '2.2 million Pound',
+                '10 million Pound'
+            ],
+        },
+        {
+            'What was the result of Sir Alex Ferguson\'s first game in charge?': [
+                '2–0 defeat at Oxford United',
+                '2–0 win at Nottingham Forest',
+                '1–0 win at Leeds United',
+                '2–1 defeat at Liverpool FC',
+                '1–0 defeat at Norwich City FC',
+                '0-0 draw at Newcastle United',
+            ],
+        },
+        {
+            'When did Man United win their first ever First Division league title?': [
+                'nineteen-hundred and eight',
+                'nineteen-hundred and two',
+                'nineteen-hundred and ten',
+                'nineteen-hundred',
+                'eighteen-eighty-nine',
+                'eighteen-ninety',
+            ],
+        },
+        {
+            'How many goals did defender Steve Bruce score in the league in the 1990-91 season?': [
+                '13',
+                '15',
+                '10',
                 '8',
+                '5',
+                '18',
+                '11',
             ],
         },
         {
-            'Santa only has one female reindeer, Which one is it?': [
-                'Vixen',
-                'Clarice',
-                'Cupid',
-                'Cupid',
-            ],
-        },
-        {
-            'In the 1964 classic Rudolph The Red Nosed Reindeer, what was the snowman narrators name?': [
-                'Sam',
-                'Frosty',
-                'Burl',
-                'Snowy',
-            ],
-        },
-        {
-            'What was Rudolph\'s father\'s name?': [
-                'Donner',
-                'Dasher',
-                'Blixen',
-                'Comet',
-            ],
-        },
-        {
-            'In the 1964 movie, What was the name of the coach of the Reindeer Games?': [
-                'Comet',
-                'Blixen',
-                'Donner',
-                'Dasher',
-            ],
-        },
-        {
-            'In the 1964 movie, what is the name of the deer that Rudolph befriends at the reindeer games?': [
-                'Fireball',
-                'Clarice',
-                'Jumper',
-                'Vixen',
-            ],
-        },
-        {
-            'In the 1964 movie, How did Donner, Rudolph\'s father, try to hide Rudolph\'s nose?': [
-                'Black mud',
-                'Bag',
-                'Pillow case',
-                'Sock',
-            ],
-        },
-        {
-            'In the 1964 movie, what does the Misfit Elf want to be instead of a Santa Elf?': [
-                'Dentist',
-                'Reindeer',
-                'Toy maker',
-                'Candlestick maker',
-            ],
-        },
-        {
-            'In the 1964 movie,what was the Bumble\'s one weakness?': [
-                'Could not swim',
-                'Always hungry',
-                'Candy canes',
-                'Cross eyed',
-            ],
-        },
-        {
-            'In the 1964 movie, what is Yukon Cornelius really in search of?': [
-                'Peppermint',
-                'Gold',
-                'India',
-                'Polar Bears',
-            ],
-        },
-        {
-            'In the 1964 movie, why is the train on the Island of Misfit Toys?': [
-                'Square wheels',
-                'No Engine',
-                'Paint does not match',
-                'It does not toot',
-            ],
-        },
-        {
-            'In the 1964 movie, what is the name of the Jack in the Box?': [
-                'Charlie',
-                'Sam',
-                'Billy',
-                'Jack',
-            ],
-        },
-        {
-            'In the 1964 movie, why did Santa Claus almost cancel Christmas?': [
-                'Storm',
-                'No snow',
-                'No toys',
-                'The Reindeer were sick',
-            ],
-        },
-        {
-            'In the 1964 movie, what animal noise did the elf make to distract the Bumble?': [
-                'Oink',
-                'Growl',
-                'Bark',
-                'Meow',
-            ],
-        },
-        {
-            'In the 1964 movie, what is the name of the prospector?': [
-                'Yukon Cornelius',
-                'Slider Sam',
-                'Bumble',
-                'Jack',
-            ],
-        },
-        {
-            'How far do reindeer travel when they migrate?': [
-                '3000 miles',
-                '700 miles',
-                '500 miles',
-                '0 miles',
-            ],
-        },
-        {
-            'How fast can a reindeer run?': [
-                '48 miles per hour',
-                '17 miles per hour',
-                '19 miles per hour',
-                '14 miles per hour',
-                '52 miles per hour',
-                '41 miles per hour',
-            ],
-        },
-    ],
-    QUESTIONS_DE_DE: [
-        {
-            'Rentiere haben ein sehr dickes Fell, Wie viele Haare pro Quadratzentimeter haben sie?': [
-                '13,000',
-                '1,200',
-                '5,000',
-                '700',
-                '1,000',
-                '120,000',
-            ],
-        },
-        {
-            'Der Klassiker aus dem Jahr 1964, Rudolph mit der roten Nase, wurde gedreht in? ': [
-                'Japan',
-                'USA',
-                'Finnland',
-                'Deutschland',
-                'Kanada',
-                'Norwegen',
-                'Frankreich',
-            ],
-        },
-        {
-            'Um die Rentiere des Weihnachtsmanns kümmert sich eine der Weihnachtselfen, Wie heißt sie?': [
-                'Wunorse Openslae',
-                'Alabaster Snowball',
-                'Bushy Evergreen',
-                'Pfeffer Minstix',
-            ],
-        },
-        {
-            'Wenn alle Rentiere des Weihnachtsmanns Geweihe hätten, während sie seinen Weihnachtsschlitten ziehen, wären sie alle ': [
-                'Weiblich',
-                'Männlich',
-                'Weiblich und männlich',
-                'Kann man nicht sagen',
-            ],
-        },
-        {
-            'Was essen Rentiere?': [
-                'Flechten',
-                'Gras',
-                'Blätter',
-                'Beeren',
-            ],
-        },
-        {
-            'Welche Aussage ist nicht richtig?': [
-                'Karibus leben auf allen Kontinenten',
-                'Karibus und Rentiere gehören derselben Gattung an ',
-                'Karibus sind größer als Rentiere',
-                'Rentiere leben in Skandinavien und Russland',
-            ],
-        },
-        {
-            'In welchem Jahr kam Rudolph ins Fernsehen?': [
-                '1964',
-                '1979',
-                '2000',
-                '1956',
-            ],
-        },
-        {
-            'Wer war der Sprecher für Rudolph im klassischen Film aus dem Jahr 1964?': [
-                'Billie Mae Richards',
-                'Burl Ives',
-                'Paul Soles',
-                'Lady Gaga',
-            ],
-        },
-        {
-            'Welche Handelskette verwendete 1939 die Geschichte von Rudolph mit der roten Nase?': [
-                'Montgomery Ward',
-                'Sears',
-                'Macys',
-                'Kmart',
-            ],
-        },
-        {
-            'Wie hieß das Rentier des Weihnachtsmanns namens Donner ursprünglich?': [
-                'Dunder',
-                'Donny',
-                'Dweedle',
-                'Dreamy',
-            ],
-        },
-        {
-            'Wer hat die Geschichte von Rudolph erfunden?': [
-                'Robert May',
-                'Johnny Marks',
-                'Santa',
-                'J K  Rowling',
-            ],
-        },
-        {
-            'Wo findest du keine Rentiere?': [
-                'Nordpol',
-                'Lappland',
-                'Korvatunturi Berge',
-                'Finnland',
-            ],
-        },
-        {
-            'Warum können die Rentiere des Weihnachtsmanns fliegen?': [
-                'Magischer Staub der Rentiere',
-                'Fusion',
-                'Amanita muscaria',
-                'Elfen',
-            ],
-        },
-        {
-            'Wieviele Rentierhufe gibt es hier einschließlich Rudolph?': [
-                '36',
+            'For how many years was Alex Ferguson in charge of the club?': [
+                '26',
+                '25',
                 '24',
-                '16',
-                '8',
+                '23',
+                '22',
+                '21',
             ],
         },
         {
-            'Der Weihnachtsmann hat nur ein weibliches Rentier, Wie heißt es?': [
-                'Blitzen',
-                'Clarice',
-                'Cupid',
-                'Cupid',
+            'Which of these players was on the bench for Man United\'s Champions League triumph in nineteen-ninety-nine?': [
+                'Wes Brown',
+                'Robbie Savage',
+                'William Prunier',
+                'Henning Berg',
+                'Jordi Cruyff',
+                'Roy Keane',
+                'Paul Scholes'
             ],
         },
         {
-            'Wie war der Name des erzählenden Schneemanns im klassischen Film Rudolph mit der roten Nase aus dem Jahr 1964?': [
-                'Sam',
-                'Frosty',
-                'Burl',
-                'Snowy',
+            'Who won UEFA Man of the Match in 2008 Champions League final?': [
+                'Edwin van der Sar',
+                'Christiano Ronaldo',
+                'Ryan Giggs',
+                'Wayne Rooney',
+                'Michael Carrick',
+                'Paul Scholes',
+                'Ji-Sung Park',
+                'Anderson',
             ],
         },
-        {
-            'Wie hieß der Vater von Rudolph?': [
-                'Donner',
-                'Dasher',
-                'Blixen',
-                'Comet',
-            ],
-        },
-        {
-            'Wie war der Name des Trainers der Rentierspiele im klassischen Film aus dem Jahr 1964?': [
-                'Comet',
-                'Blixen',
-                'Donner',
-                'Dasher',
-            ],
-        },
-        {
-            'Wie war im klassichen Film aus 1964 der Name des Hirsches, mit dem sich Rudolph befreundete?': [
-                'Fireball',
-                'Clarice',
-                'Jumper',
-                'Vixen',
-            ],
-        },
-        {
-            'Wie hat der Vater von Rudolph, Donner, im Film aus dem Jahr 1964 versucht, die Nase von Rudolph zu verbergen?': [
-                'Schwarzer Schlamm',
-                'Sack',
-                'Kissenbezug',
-                'Socke',
-            ],
-        },
-        {
-            'Was möchte die Misfit Elfe im Film aus dem Jahr 1964 werden anstatt eine Elfe für den Weihnachtsmann?': [
-                'Zahnarzt',
-                'Rentier',
-                'Spielzeugmacher',
-                'Kerzenmacher',
-            ],
-        },
-        {
-            'Was war die einzige Schwäche von Bumble im Film aus dem Jahr 1964?': [
-                'Konnte nicht schwimmen',
-                'War immer hungrig',
-                'Zuckerstangen',
-                'Schielte',
-            ],
-        },
-        {
-            'Was sucht Yukon Cornelius in Wirklichkeit im Film aus dem Jahr 1964?': [
-                'Pfefferminz',
-                'Gold',
-                'Indien',
-                'Polarbären',
-            ],
-        },
-        {
-            'Warum befindet sich der Zug im Film aus dem Jahr 1964 auf der Insel des fehlerhaften Spielzeugs?': [
-                'Viereckige Räder',
-                'Keine Dampfmaschine',
-                'Farbe stimmt nicht',
-                'Pfeift nicht',
-            ],
-        },
-        {
-            'Wie lautet der Name des Schachtelmännchens im Film aus dem Jahr 1964?': [
-                'Charlie',
-                'Sam',
-                'Billy',
-                'Jack',
-            ],
-        },
-        {
-            'Warum hat der Weihnachtsmann im Film aus dem Jahr 1964 Weihnachten beinahe abgesagt?': [
-                'Sturm',
-                'Kein Schnee',
-                'Kein Spielzeug',
-                'Die Rentiere waren krank',
-            ],
-        },
-        {
-            'Welches tierische Geräusch machte die Elfe im Film aus dem Jahr 1964, um den Bumble abzulenken?': [
-                'Oink',
-                'Knurr',
-                'Wauwau',
-                'Miau',
-            ],
-        },
-        {
-            'Wie lautet der Name des Goldsuchers im Film aus dem Jahr 1964?': [
-                'Yukon Cornelius',
-                'Slider Sam',
-                'Bumble',
-                'Jack',
-            ],
-        },
-        {
-            'Wie weit ziehen Rentiere auf ihren Wanderungen?': [
-                '4800 km',
-                '1100 km',
-                '800 km',
-                '0 km',
-            ],
-        },
-        {
-            'Wie schnell läuft ein Rentier?': [
-                '77 km pro Stunde',
-                '27 km pro Stunde',
-                '30 km pro Stunde',
-                '22 km pro Stunde',
-                '83 km pro Stunde',
-                '65 km pro Stunde',
-            ],
-        },
-    ],
+    ]
 };

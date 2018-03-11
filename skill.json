@@ -1,16 +1,16 @@
 {
-  "skillManifest": {
+  "manifest": {
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Sample Short Description",
+          "summary": "Quiz for true Manchester United fan",
           "examplePhrases": [
-            "Alexa open reindeer trivia",
-            "Alexa tell reindeer trivia to start a game",
-            "Alexa tell reindeer trivia I want to play"
+            "Alexa open Man United Quiz",
+            "Alexa tell Man United Quiz to start a game",
+            "Alexa tell Man United Quiz I want to play"
           ],
-          "name": "reindeer trivia",
-          "description": "Sample Full Description"
+          "name": "Man United Quiz",
+          "description": "Prove yourself if you are a Manchester United fan. Beat this quiz and be proud to be Red Devil."
         }
       },
       "isAvailableWorldwide": true,

@@ -29,23 +29,6 @@
       "samples": []
     },
     {
-      "name": "AnswerIntent",
-      "samples": [
-        "the answer is {Answer}",
-        "my answer is {Answer}",
-        "is it {Answer}",
-        "{Answer} is my answer",
-        "{Answer}"
-      ],
-      "slots": [
-        {
-          "name": "Answer",
-          "type": "AMAZON.NUMBER",
-          "samples": []
-        }
-      ]
-    },
-    {
       "name": "DontKnowIntent",
       "samples": [
         "i don't know",
@@ -53,11 +36,37 @@
         "i don't know that one",
         "dunno",
         "skip",
+        "next",
         "i don't know that",
         "who knows",
-        "i don't know this question"
+        "i don't know the answer",
+        "I give up",
+        "what is the answer"
       ],
       "slots": []
-    }
+    },
+    {
+        "name": "GetAnswerIntent",
+        "samples": [
+          "I say {Answer}",
+          "{Answer} is final answer",
+          "{Answer}",
+          "{Answer} is my answer",
+          "Is it {Answer}",
+          "my answer is {Answer}",
+          "I guess {Answer}",
+          "{Answer} may be",
+          "I think {Answer}",
+          "I think the answer is {Answer}",
+          "Let say {Answer}",
+          "Number {Answer}"
+        ],
+        "slots": [
+          {
+            "name": "Answer",
+            "type": "AMAZON.NUMBER"
+          }
+        ]
+     }
   ]
 }
